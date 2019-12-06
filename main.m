@@ -10,3 +10,5 @@ ap_length=ap_row;
 % calibration data is different between NICs
 [ Phoff1,Phoff2 ] = get_cali_phase_average( ap_num  );  
 
+[ Phoff1,Phoff2 ] = get_cali_phase_num_packets( ap_num  );
+
